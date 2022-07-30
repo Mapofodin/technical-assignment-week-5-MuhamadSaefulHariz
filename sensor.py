@@ -8,4 +8,4 @@ while True:
 
      humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
      print('suhu={0:0.1f}*C kelembapan={1:0.1f}%'.format(temperature, humidity))
-     time.sleep(0.1)
+     time.sleep(0.5)
